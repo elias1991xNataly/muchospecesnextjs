@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import NavLinks from "../components/NavLinks";
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { Bars3Icon, XMarkIcon, Search } from '@heroicons/react/24/outline';
 import MenuOverlay from "../components/MenuOverlay"
 import Image from 'next/image';
 import Untitled from "../../../public/images/Untitled.png"
@@ -38,7 +38,7 @@ const navLinks = [
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
-        <nav className='fixed mx-auto top-0 left-0 right-0 z-10  bg-opacity-100'>
+        <nav className='fixed mx-auto top-0 left-0 right-0 z-10 bg-white bg-opacity-100'>
             <div className='flex container flex-row lg:py-4  items-center justify-between  mx-auto px-4 py-2'>
                 <Link href={"/"} className="text-2xl flex md:text-5xl  font-semibold">
                     <Image alt="Logo" width={100} height={100} src={Untitled} />
@@ -79,7 +79,9 @@ const Navbar = () => {
                         }
                         )
                         }
-
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
                     </ul>
                 </div>
 
