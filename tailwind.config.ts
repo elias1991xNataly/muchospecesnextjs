@@ -8,11 +8,17 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    
     extend: {fontFamily:{
       sans: ['Inter', ...defaultTheme.fontFamily.sans],
     },
       backgroundImage: {
         "hero-image": "url('/images/foto\ de\ piscina.jpg')",
+      },
+      colors:{
+        "cloro":"#6AA87B",
+        "groups":"#FF00FF",
+        "uptodate":"#FF9900"
       },
     },
   },

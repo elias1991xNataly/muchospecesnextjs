@@ -3,6 +3,7 @@ import NavBar from "../app/components/NavBar";
 import HeroSection from "../app/components/HeroSection";
 import WhoWeare from "../app/components/WhoWeare";
 import BestForYourChildren from "../app/components/BestForYourChildren"
+import OurClasses from "../app/components/OurClasses"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <HeroSection />
         <WhoWeare/>
         <BestForYourChildren/>
+        <OurClasses/>
       </div>
     </main>
   );

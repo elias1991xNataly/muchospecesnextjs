@@ -6,7 +6,7 @@ import Logo from "../../../public/images/Logo.png";
 const HeroSection = () => {
     return (
         <div
-            className="h-screen bg-hero-image w-screen flex flex-col lg:flex-row content-center justify-center bg-cover"
+            className="lg:h-screen bg-[length:390px_800px]  sm:bg-cover  bg-hero-image  w-screen flex flex-col lg:flex-row content-center justify-center"
         >
             <div className='flex justify-center ml-14 lg:ml-7  flex-col'>
                 <h1 className='text-white text-3xl md:text-8xl font-bold'>ESCUELA DE NATACIÓN INFANTIL</h1>
