@@ -42,9 +42,9 @@ const Navbar = () => {
             <div className='flex container flex-row lg:py-4  items-center justify-between  mx-auto px-4 py-2'>
                 <Link href={"/"} className="text-2xl flex md:text-5xl  font-semibold">
                     <Image alt="Logo" width={100} height={100} src={Untitled} />
-                    <p>Escuela de Natación MuchosPeces</p>
+                    <p className='ml-3'>Escuela de Natación MuchosPeces</p>
                 </Link>
-                <div className='mobile-menu block md:hidden'>
+                <div className='mobile-menu block lg:hidden'>
                     {navbarOpen
                         ?
                         <button
@@ -67,8 +67,8 @@ const Navbar = () => {
                 </div>
 
 
-                <div className='menu hidden md:block md:w-auto' id="navbar">
-                    <ul className='flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0'>
+                <div className='menu hidden lg:block ' id="navbar">
+                    <ul className='flex p-4 md:p-0 md:flex-row sm:space-x-2 md:space-x-8 mt-0'>
                         {navLinks.map((link, index) => {
                             return (
 

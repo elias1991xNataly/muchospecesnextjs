@@ -1,16 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
-import Logo from "../../../public/images/Logo.png"
+import Logo from "../../../public/images/Logo.png";
 
 
 const HeroSection = () => {
     return (
         <div
-            className="h-screen bg-hero-image w-screen flex flex-row content-center justify-center bg-cover"
+            className="h-screen bg-hero-image w-screen flex flex-col lg:flex-row content-center justify-center bg-cover"
         >
-            <div className='flex justify-center ml-7  flex-col'>
-                <h1 className='text-white text-8xl font-bold'>ESCUELA DE NATACIÓN INFANTIL</h1>
-                <p className='text-white mt-5 text-3xl font-semibold'> Descubre una Experiencia Única <br></br> de Natación Infantil en Boadilla del Monte</p>
+            <div className='flex justify-center ml-14 lg:ml-7  flex-col'>
+                <h1 className='text-white text-3xl md:text-8xl font-bold'>ESCUELA DE NATACIÓN INFANTIL</h1>
+                <p className='text-white mt-5 text-3xl font-semibold'> Descubre una Experiencia Única </p>
+                 <p className='text-white mt-5 text-3xl font-semibold'> de Natación Infantil en Boadilla del Monte</p>
             </div>
             <Image
                 alt="" src={Logo} width={400} height={400} />
