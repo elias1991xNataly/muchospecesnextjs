@@ -18,7 +18,8 @@ const config: Config = {
       colors:{
         "cloro":"#6AA87B",
         "groups":"#FF00FF",
-        "uptodate":"#FF9900"
+        "uptodate":"#FF9900",
+        "footer":"#0E154D"
       },
     },
   },

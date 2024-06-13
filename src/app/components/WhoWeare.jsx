@@ -5,7 +5,7 @@ import betoy from "../../../public/images/beto y yy.jpg"
 const WhoWeare = () => {
   return (
     <div className='flex flex-col mt-9'>
-
+      <a name="quienessomos"></a>
       <h1 className='flex justify-center text-blue-900 font-extrabold text-3xl'>
         ¿Quienes somos?
       </h1>

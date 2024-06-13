@@ -2,8 +2,11 @@ import Image from "next/image";
 import NavBar from "../app/components/NavBar";
 import HeroSection from "../app/components/HeroSection";
 import WhoWeare from "../app/components/WhoWeare";
-import BestForYourChildren from "../app/components/BestForYourChildren"
-import OurClasses from "../app/components/OurClasses"
+import BestForYourChildren from "../app/components/BestForYourChildren";
+import OurClasses from "../app/components/OurClasses";
+import OurPool from "../app/components/OurPool";
+import Footer from "../app/components/Footer";
+
 
 export default function Home() {
   return (
@@ -11,10 +14,12 @@ export default function Home() {
       <NavBar />
       <div className="container gap-20 mt-24 pt-7 w-screen">
         <HeroSection />
-        <WhoWeare/>
-        <BestForYourChildren/>
-        <OurClasses/>
+        <WhoWeare />
+        <BestForYourChildren />
+        <OurClasses />
+        <OurPool />
       </div>
+      <Footer/>
     </main>
   );
 }

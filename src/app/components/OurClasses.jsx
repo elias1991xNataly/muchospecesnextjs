@@ -3,6 +3,7 @@ import React from 'react';
 const OurClasses = () => {
   return (
     <section className='mt-9'>
+      <a name="clases"></a>
       <h3 className='flex justify-center text-blue-900 font-extrabold text-3xl'>Nuestras Clases</h3>
       <div className='bg-[#0582A2] h-auto w-screen mt-3 flex flex-col md:flex-row text-white md:justify-center items-center text-center p-6 gap-y-4 md:gap-x-4 xl:gap-x-20 xl:p-16'>
         <div>
